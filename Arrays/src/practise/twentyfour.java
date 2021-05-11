@@ -1,7 +1,11 @@
+package practise;
 import java.util.Arrays;
 import java.util.Scanner;
-public class twentyfive {
-public static void main(String[] args) {
+public class twentyfour {
+
+
+
+	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
@@ -11,9 +15,9 @@ public static void main(String[] args) {
 			a[i]=sc.nextInt();
 		}
 		Arrays.sort(a);
-		for(int i=0;i<n;i++)
-		{
-			System.out.println(a[i]);
-		}
-}
+		System.out.println("1st two Min"+a[0]+" "+a[1]);
+		System.out.println(" two Max"+a[n-1]+" "+a[n-2]);
+
+	}
+
 }

@@ -1,3 +1,4 @@
+package practise;
 import java.util.Scanner;
 public class tewntytwo {
 public static void main(String[] args) {

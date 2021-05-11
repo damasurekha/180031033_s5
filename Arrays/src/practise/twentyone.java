@@ -1,10 +1,8 @@
+package practise;
 import java.util.Arrays;
 import java.util.Scanner;
-public class twentyfour {
-
-
-
-	public static void main(String[] args) {
+public class twentyone {
+public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
@@ -14,8 +12,7 @@ public class twentyfour {
 			a[i]=sc.nextInt();
 		}
 		Arrays.sort(a);
-		System.out.println("1st two Min"+a[0]+" "+a[1]);
-		System.out.println(" two Max"+a[n-1]+" "+a[n-2]);
+		System.out.println("Min"+a[0]+"Max"+a[n-1]);
 
 	}
 

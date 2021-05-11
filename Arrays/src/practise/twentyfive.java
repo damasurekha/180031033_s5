@@ -1,5 +1,7 @@
+package practise;
+import java.util.Arrays;
 import java.util.Scanner;
-public class tewnty{
+public class twentyfive {
 public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
@@ -9,15 +11,10 @@ public static void main(String[] args) {
 		{
 			a[i]=sc.nextInt();
 		}
-		int s=0;
-		float av=0;
+		Arrays.sort(a);
 		for(int i=0;i<n;i++)
 		{
-			s=s+a[i];
+			System.out.println(a[i]);
 		}
-		av=s/n;
-		System.out.println("Sum is"+s+"Avg is"+av);
-		
-	}
-
+}
 }
